@@ -9,9 +9,10 @@ listaInf :: Int -> [Int]
 listaInf n = [n] ++ listaInf (succ n)
 
 --hecho con listas por comprension
+{-
 listaInf' :: Int -> [Int]
 listaInf' n = [x| x <- [n..]]
-
+-}
 
 --ejercicio 3 Generar una lista con los primeros n naturales.
 listaPrimerosN :: Int -> [Int]
